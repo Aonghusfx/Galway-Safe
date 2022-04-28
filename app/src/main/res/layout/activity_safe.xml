@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#20B223"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.girtmobile.galwaysafe.SafeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:gravity="center_horizontal"
+        android:text="Good,\n Take care \n and enjoy the night"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSafe1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtViewSafe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/safebutton"
+        android:drawableTop="@mipmap/ic_home_white_24dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
+        android:text="Return Home"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSafe2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/safebutton"
+        android:drawableTop="@mipmap/ic_arrow_back_white_24dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
+        android:text="Back"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:layout_below="@+id/btnSafe1"
+        android:layout_alignLeft="@+id/btnSafe1"
+        android:layout_alignStart="@+id/btnSafe1"
+        android:layout_marginTop="36dp"/>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD607"
+    tools:context="com.girtmobile.galwaysafe.AmberActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:gravity="center_horizontal"
+        android:text="You activated the app.\nWould you\n like to\n speak to\n someone?"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnYes"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#FB0606"
+            android:onClick="ambYes"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:text="Yes"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="195dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnNo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#24C82B"
+            android:onClick="ambNo"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:text="No"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="195dp" />
+
+    </LinearLayout>
+</RelativeLayout>

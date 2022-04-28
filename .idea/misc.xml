@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/drawable/ic_launcher_round.xml" value="0.2703125" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/drawable/my_button_bg.xml" value="0.2703125" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/drawable/roundedbutton.xml" value="0.2703125" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/drawable/roundedbuttonamb.xml" value="0.2703125" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/drawable/roundedbuttonblue.xml" value="0.2703125" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/drawable/roundedbuttonred.xml" value="0.2703125" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/drawable/safebutton.xml" value="0.2703125" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/layout/activity_alert.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/layout/activity_amber.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/layout/activity_helpline.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/layout/activity_maps.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/layout/activity_safe.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/layout/activity_splash.xml" value="0.1453804347826087" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/layout/activity_terms.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.175" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2703125" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/galwaysafe/app/src/main/res/xml/activity_main_scene.xml" value="0.1793478260869565" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1793478260869565" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

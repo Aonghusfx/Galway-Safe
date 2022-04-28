@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/msg"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#6b6b5a">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/helpTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="115dp"
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:text="Here is a list of people that might be able to help you."
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/hSEBtn2"
+                style="?android:textAppearanceMedium"
+                android:layout_width="193dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:autoLink="phone|all"
+                android:gravity="center_horizontal"
+                android:lineSpacingMultiplier="1.2"
+                android:linksClickable="true"
+                android:onClick="callNumber"
+                android:padding="16dp"
+                android:text="@string/HSE_Drug_Helpline"
+                android:textColor="#ffffff"
+                android:textColorLink="#ffffff" />
+
+            <TextView
+                android:id="@+id/hSEBtn1"
+                style="?android:textAppearanceMedium"
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:autoLink="all|phone"
+                android:gravity="center_horizontal"
+                android:lineSpacingMultiplier="1.2"
+                android:linksClickable="true"
+                android:onClick="callNumber"
+                android:padding="16dp"
+                android:text="@string/HSE_Drug_Service"
+                android:textColor="#ffffff"
+                android:textColorLink="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1.0">
+
+            <TextView
+                android:id="@+id/samBtn2"
+                style="?android:textAppearanceMedium"
+                android:layout_width="208dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:autoLink="phone|all"
+                android:gravity="center_horizontal"
+                android:lineSpacingMultiplier="1.2"
+                android:linksClickable="true"
+                android:onClick="callNumber"
+                android:padding="16dp"
+                android:text="@string/Samaritans"
+                android:textColor="#ffffff"
+                android:textColorLink="#ffffff" />
+
+            <TextView
+                android:id="@+id/samBtn"
+                style="?android:textAppearanceMedium"
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:autoLink="phone|all"
+                android:gravity="center_horizontal"
+                android:lineSpacingMultiplier="1.2"
+                android:linksClickable="true"
+                android:onClick="callNumber"
+                android:padding="16dp"
+                android:text="@string/Samaritans1"
+                android:textColor="#ffffff"
+                android:textColorLink="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/imok"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/roundedbutton"
+                android:drawableTop="@mipmap/ic_check_circle_white"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp"
+                android:text="I'm Ok"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnICE"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="52dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/roundedbuttonamb"
+                android:drawableTop="@mipmap/ic_contact_phone_white_for_amber_button"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp"
+                android:text="Message\nICE\nContacts"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="191dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnICE4"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/roundedbuttonblue"
+                android:drawableTop="@mipmap/ic_place_white_24dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp"
+                android:text="share\nyour\nlocation"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEmer"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="52dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/roundedbuttonred"
+                android:drawableTop="@mipmap/ic_add_alert_white_36dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp"
+                android:text="Contact\nEmergency\nServices"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
